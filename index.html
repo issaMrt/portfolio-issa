@@ -419,7 +419,7 @@
     <p class="sec-desc">Ce qu'il sait faire, en clair — pas besoin de vocabulaire technique pour comprendre.</p>
 
     <div class="panel">
-      <div class="panel-rail"><span>9 compétences</span><span>mises à jour 2026</span></div>
+      <div class="panel-rail"><span>13 compétences</span><span>mises à jour 2026</span></div>
       <div class="ports">
         <div class="port"><div class="dot"></div><div><div class="code">Installer et configurer un ordinateur</div><div class="full">Mettre en service, paramétrer et mettre à jour un poste de travail.</div></div></div>
         <div class="port"><div class="dot"></div><div><div class="code">Sauvegarder les données</div><div class="full">Protéger les fichiers et systèmes importants en cas de panne.</div></div></div>
@@ -430,6 +430,10 @@
         <div class="port"><div class="dot"></div><div><div class="code">Installation / configuration Proxmox</div><div class="full">Mise en place et paramétrage d'un environnement de virtualisation Proxmox.</div></div></div>
         <div class="port"><div class="dot"></div><div><div class="code">Régler switch et routeur</div><div class="full">Paramétrage avancé : VLAN, ports, câblage RJ45.</div></div></div>
         <div class="port"><div class="dot"></div><div><div class="code">Anglais</div><div class="full">Niveau B2 — intermédiaire avancé.</div></div></div>
+        <div class="port"><div class="dot"></div><div><div class="code">Développer une application web en Python</div><div class="full">Création d'un serveur Flask avec pages de connexion et de dictée, et génération automatique de documents Word.</div></div></div>
+        <div class="port"><div class="dot"></div><div><div class="code">Sécuriser un service web</div><div class="full">Mot de passe haché, sessions sécurisées, blocage après échecs de connexion et protection contre les requêtes intersites.</div></div></div>
+        <div class="port"><div class="dot"></div><div><div class="code">Héberger un service en accès distant chiffré</div><div class="full">Publication d'un serveur local en HTTPS avec Tailscale, sans ouvrir de port sur la box.</div></div></div>
+        <div class="port"><div class="dot"></div><div><div class="code">Utiliser une IA en local</div><div class="full">Transcription vocale (Whisper) et reformulation de texte (Mistral via Ollama), sans envoyer de données à un tiers.</div></div></div>
       </div>
     </div>
   </div>
@@ -455,6 +459,25 @@
         </div>
         <div class="project-links">
           <a href="https://github.com/issaMrt/screenshare-public" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-title">Rapports vocaux CVC</div>
+          <div class="project-status"><span class="bulb"></span>terminé</div>
+        </div>
+        <div class="project-desc">Application web privée qui transforme la dictée d'un technicien en rapport d'intervention Word. La voix est transcrite en local par Whisper, puis reformulée en style professionnel par une IA locale (Mistral via Ollama). Le rapport contient les activités classées dans l'ordre, le matériel, les anomalies et le reste à faire. Aucune donnée envoyée à un service externe, accès distant chiffré via Tailscale, connexion protégée contre le brute-force.</div>
+        <div class="project-stack">
+          <span>Python</span>
+          <span>Flask</span>
+          <span>faster-whisper</span>
+          <span>Ollama</span>
+          <span>python-docx</span>
+          <span>JavaScript</span>
+          <span>Tailscale</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/issaMrt/rapport-cvc" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </div>
     </div>
